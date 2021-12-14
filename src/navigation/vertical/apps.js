@@ -5,11 +5,11 @@ export default [
     header: 'Super Admin Dashboard'
   },
   {
-    id: 'email',
+    id: 'dashboard',
     title: 'DashBoard',
     icon: <Mail size={20} />,
-    navLink: '/apps/email'
-  },
+    navLink: '/apps/chat'
+  }
   // {
   //   id: 'chat',
   //   title: 'Schools',
@@ -59,72 +59,72 @@ export default [
   //     }
   //   ]
   // },
-  {
-    id: 'eCommerce',
-    title: 'Schools',
-    icon: <ShoppingCart size={20} />,
-    children: [
-      {
-        id: 'shop',
-        title: 'All schools',
-        icon: <Circle size={12} />,
-        navLink: '/apps/ecommerce/shop'
-      },
-      {
-        id: 'detail',
-        title: 'School settings',
-        icon: <Circle size={12} />,
-        navLink: '/apps/ecommerce/product-detail'
-      }
-      // {
-      //   id: 'wishList',
-      //   title: 'Wish List',
-      //   icon: <Circle size={12} />,
-      //   navLink: '/apps/ecommerce/wishlist'
-      // },
-      // {
-      //   id: 'checkout',
-      //   title: 'Checkout',
-      //   icon: <Circle size={12} />,
-      //   navLink: '/apps/ecommerce/checkout'
-      // }
-    ]
-  },
-  {
-    id: 'users',
-    title: 'Settings',
-    icon: <User size={20} />,
-    children: [
-      {
-        id: 'list',
-        title: 'Applications settings',
-        icon: <Circle size={12} />,
-        navLink: '/apps/user/list'
-      },
-      {
-        id: 'view',
-        title: 'Reports settings',
-        icon: <Circle size={12} />,
-        navLink: '/apps/user/view'
-      },
-      {
-        id: 'edit',
-        title: 'Frontend settings',
-        icon: <Circle size={12} />,
-        navLink: '/apps/user/edit'
-      }
-      // {
-      //   id: 'edit',
-      //   title: 'Pages',
-      //   icon: <Circle size={12} />,
-      //   navLink: '/apps/user/edit'
-      // },
-      // {
-      //   id: 'edit',
-      //   title: 'Footer Settings',
-      //   icon: <Circle size={12} />,
-      //   navLink: '/apps/user/edit'
-      // }
-    ]
-  }
+  // {
+  //   id: 'eCommerce',
+  //   title: 'Schools',
+  //   icon: <ShoppingCart size={20} />,
+  //   children: [
+  //     {
+  //       id: 'shop1',
+  //       title: 'All schools',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/apps/ecommerce/product-detail'
+  //     },
+  //     {
+  //       id: 'detail',
+  //       title: 'School settings',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/apps/ecommerce/product-detail'
+  //     }
+  //     // {
+  //     //   id: 'wishList',
+  //     //   title: 'Wish List',
+  //     //   icon: <Circle size={12} />,
+  //     //   navLink: '/apps/ecommerce/wishlist'
+  //     // },
+  //     // {
+  //     //   id: 'checkout',
+  //     //   title: 'Checkout',
+  //     //   icon: <Circle size={12} />,
+  //     //   navLink: '/apps/ecommerce/checkout'
+  //     // }
+  //   ]
+  // }
+  // {
+  //   id: 'users',
+  //   title: 'Settings',
+  //   icon: <User size={20} />,
+  //   children: [
+  //     {
+  //       id: 'list',
+  //       title: 'Applications settings',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/apps/user/list'
+  //     },
+  //     {
+  //       id: 'view',
+  //       title: 'Reports settings',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/apps/user/view'
+  //     },
+  //     {
+  //       id: 'edit',
+  //       title: 'Frontend settings',
+  //       icon: <Circle size={12} />,
+  //       navLink: '/apps/user/edit'
+  //     }
+  //     // {
+  //     //   id: 'edit',
+  //     //   title: 'Pages',
+  //     //   icon: <Circle size={12} />,
+  //     //   navLink: '/apps/user/edit'
+  //     // },
+  //     // {
+  //     //   id: 'edit',
+  //     //   title: 'Footer Settings',
+  //     //   icon: <Circle size={12} />,
+  //     //   navLink: '/apps/user/edit'
+  //     // }
+  //   ]
+  // }
 ]

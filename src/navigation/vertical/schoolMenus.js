@@ -163,6 +163,6 @@ export default [
     id: 'email',
     title: 'Time Table (Calendar)',
     icon: <Mail size={20} />,
-    navLink: '/apps/email'
+    navLink: '/apps/user/edit'
   }
 ]

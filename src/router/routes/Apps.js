@@ -112,7 +112,7 @@ const AppRoutes = [
   {
     path: '/apps/ecommerce/shop',
     className: 'ecommerce-application',
-    component: lazy(() => import('../../views/apps/ecommerce/shop'))
+    component: lazy(() => import('../../views/components/newUser'))
   },
   {
     path: '/apps/ecommerce/wishlist',
@@ -141,7 +141,7 @@ const AppRoutes = [
   },
   {
     path: '/apps/user/list',
-    component: lazy(() => import('../../views/apps/user/list'))
+    component: lazy(() => import('../../views/components/newProduct'))
   },
   {
     path: '/apps/user/edit',
